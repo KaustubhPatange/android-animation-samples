@@ -2,19 +2,25 @@
 
 A sample to show how we can implement a spring back functionality for Recyclerview.
 
-When you fling the `RecyclerView` & it reaches either end or to the top of the list the remaining velocity will be dispersed to create this _Spring_ like animation.
+When you fling the `RecyclerView` & it reaches either end or to the top of the list the remaining momentum will be dispersed to create this (below gif) _Spring_ like animation. Check the [sample app](https://github.com/KaustubhPatange/spring-back-recyclerview/releases) from the releases to see it in action.
 
 <img height="420px" src="art/demo.gif"/>
 
-_Animation is playing at 0.5x_
+_Gif is Playing at 0.5x_
 
 ## Usage
 
-This is not a library but a sample build for an article that I wrote on medium (see below). TBH, this is just my take on how the animation have been applied.
+This is not a library but a sample build for an article that I wrote on Medium (see **Resources**). TBH, this is just my take on how the animation should have been implemented. Feel free to modify the code in any way you want.
+
+- Copy the [SpringScrollHelper](https://github.com/KaustubhPatange/spring-back-recyclerview/blob/master/app/src/main/java/com/kpstv/dampingrecyclerview/SpringScrollHelper.kt) class to your project.
+
+```kotlin
+SpringScrollHelper().attachToRecyclerView(recyclerView)
+```
 
 ## Resources
 
-- [Spring Back Recyclerview - The basics]() - An article explaining how to create this animation.
+- [Spring Back Recyclerview - The basics](https://kaustubhpatange.medium.com/spring-back-recyclerview-the-basics-beebe3477cad) - An article explaining how to create this animation.
 
 ## License
 
