@@ -12,7 +12,7 @@ _Gif is Playing at 0.5x_
 
 This is not a library but a sample build for an article that I wrote on Medium (see **Resources**). TBH, this is just my take on how the animation should have been implemented. Feel free to modify the code in any way you want.
 
-- Copy the [SpringScrollHelper](https://github.com/KaustubhPatange/spring-back-recyclerview/blob/master/app/src/main/java/com/kpstv/dampingrecyclerview/SpringScrollHelper.kt) class to your project.
+- Add [this](https://developer.android.com/jetpack/androidx/releases/dynamicanimation#declaring_dependencies) dependency & copy the [SpringScrollHelper](https://github.com/KaustubhPatange/spring-back-recyclerview/blob/master/app/src/main/java/com/kpstv/dampingrecyclerview/SpringScrollHelper.kt) class to your project.
 
 ```kotlin
 SpringScrollHelper().attachToRecyclerView(recyclerView)
