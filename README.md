@@ -1,26 +1,11 @@
-# Spring Back RecyclerView
+# Android Animation Samples
 
-A sample to show how we can implement a spring back functionality for Recyclerview.
+A repository where I experiment with different animations & writes about it on medium.
 
-When you fling the `RecyclerView` & it reaches either end or to the top of the list the remaining momentum will be dispersed to create this (below gif) _Spring_ like animation. Check the [sample app](https://github.com/KaustubhPatange/spring-back-recyclerview/releases) from the releases to see it in action.
+## Table of contents
 
-<img height="420px" src="art/demo.gif"/>
-
-_Gif is Playing at 0.5x_
-
-## Usage
-
-This is not a library but a sample build for an article that I wrote on Medium (see **Resources**). TBH, this is just my take on how the animation should have been implemented. Feel free to modify the code in any way you want.
-
-- Add [this](https://developer.android.com/jetpack/androidx/releases/dynamicanimation#declaring_dependencies) dependency & copy the [SpringScrollHelper](https://github.com/KaustubhPatange/spring-back-recyclerview/blob/master/app/src/main/java/com/kpstv/dampingrecyclerview/SpringScrollHelper.kt) class to your project.
-
-```kotlin
-SpringScrollHelper().attachToRecyclerView(recyclerView)
-```
-
-## Resources
-
-- [Spring Back Recyclerview - The basics](https://kaustubhpatange.medium.com/spring-back-recyclerview-the-basics-beebe3477cad) - An article explaining how to create this animation.
+- [Spring Back Recyclerview](/SpringBack-RecyclerView) - A _Spring_ like animation when flinging the RecyclerView.
+- [FabReveal fragment transaction](/FabReveal-Fragment-Transaction) - A _morphing_ animation where a FAB transforms to another view.
 
 ## License
 
