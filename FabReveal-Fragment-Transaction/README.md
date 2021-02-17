@@ -14,9 +14,9 @@ Apart from animation this sample also focus on the correct way to implement `Bot
 
 There is class `AbstractBottomNavActivity` which abstracts away this implementation so suppose in future you want to switch to some 3rd party solution it wouldn't be difficult to do so.
 
-## Resources
-
-- [Fragment transactions with Fab-Reveal animation](https://kaustubhpatange.medium.com/spring-back-recyclerview-the-basics-beebe3477cad) - A detailed article explaining how to achieve this animation.
+<!-- ## Resources
+TODO:
+- [Fragment transactions with Fab-Reveal animation](/add-here) - A detailed article explaining how to achieve this animation. -->
 
 ## License
 
