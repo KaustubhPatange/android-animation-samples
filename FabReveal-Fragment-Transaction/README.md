@@ -14,9 +14,9 @@ Apart from animation this sample also focus on the correct way to implement `Bot
 
 There is class `AbstractBottomNavActivity` which abstracts away this implementation so suppose in future you want to switch to some 3rd party solution it wouldn't be difficult to do so.
 
-<!-- ## Resources
-TODO:
-- [Fragment transactions with Fab-Reveal animation](/add-here) - A detailed article explaining how to achieve this animation. -->
+## Resources
+
+- [Fragment transactions with Fab-Reveal animation](https://kaustubhpatange.medium.com/fragment-transactions-with-fab-reveal-animation-697b055a469) - A detailed article explaining how to achieve this animation.
 
 ## License
 
