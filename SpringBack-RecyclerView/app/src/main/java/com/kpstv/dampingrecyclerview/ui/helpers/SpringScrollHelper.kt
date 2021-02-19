@@ -1,4 +1,4 @@
-package com.kpstv.dampingrecyclerview
+package com.kpstv.dampingrecyclerview.ui.helpers
 
 import androidx.dynamicanimation.animation.DynamicAnimation
 import androidx.dynamicanimation.animation.SpringAnimation
@@ -58,7 +58,8 @@ class SpringScrollHelper {
                 var totalOffset = 0
                 var property: DynamicAnimation.ViewProperty = DynamicAnimation.SCALE_Y
                 if (flingVy != 0) {
-                    currentOffset = recyclerView.computeVerticalScrollOffset()
+                    // If padding is applied at top, bottom
+                    currentOffset = (recyclerView.computeVerticalScrollOffset() - recyclerView.paddingTop - recyclerView.paddingBottom).coerceAtLeast(0)
                     totalOffset = recyclerView.computeVerticalScrollRange() - recyclerView.measuredHeight
                     velocity = (abs(flingVy) /recyclerView.measuredHeight).toFloat()
                     property = DynamicAnimation.SCALE_Y
@@ -68,7 +69,8 @@ class SpringScrollHelper {
                         recyclerView.pivotY = 0f
                     }
                 } else if (flingVx != 0) {
-                    currentOffset = recyclerView.computeHorizontalScrollOffset()
+                    // If padding is applied at start, end
+                    currentOffset = (recyclerView.computeHorizontalScrollOffset() - recyclerView.paddingStart - recyclerView.paddingEnd).coerceAtLeast(0)
                     totalOffset = recyclerView.computeHorizontalScrollRange() - recyclerView.measuredWidth
                     velocity = (abs(flingVx) /recyclerView.measuredWidth).toFloat()
                     property = DynamicAnimation.SCALE_X
