@@ -1,6 +1,6 @@
 # Animated Clock Sample
 
-A clock animation inspired by [Aurimas Liutikas](https://twitter.com/_aurimas/status/1366557927067185157?s=20)'s design where he built it (below) using Jetpack Compose. I gave it a rewamp & tried to achieve the same using traditional view system.
+A clock animation inspired by [Aurimas Liutikas](https://twitter.com/_aurimas/status/1366557927067185157?s=20)'s design where he built it (below) using Jetpack Compose. I gave it a rewamp & tried to achieve the same using the traditional view system.
 
 Check the [sample app](art/) to see it in action.
 
