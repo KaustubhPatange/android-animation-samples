@@ -1,12 +1,10 @@
-# Android Animation Samples
+# Animated Clock Sample
 
-A repository where I experiment with different animations & writes about it on medium.
+A clock animation inspired by [Aurimas Liutikas](https://twitter.com/_aurimas/status/1366557927067185157?s=20)'s design where he built it (below) using Jetpack Compose. I gave it a rewamp & tried to achieve the same using traditional view system.
 
-## Table of contents
+Check the [sample app](art/) to see it in action.
 
-- [Spring Back Recyclerview](/SpringBack-RecyclerView) - A _Spring_ like animation when flinging the RecyclerView.
-- [FabReveal fragment transaction](/FabReveal-Fragment-Transaction) - A _morphing_ animation where a FAB transforms to another view.
-- [Animated Clock sample](/AnimatedClock-Sample) - A view implementation of this clock [animation](https://twitter.com/_aurimas/status/1366557927067185157).
+<img height="400px" src="art/demo.gif">
 
 ## License
 

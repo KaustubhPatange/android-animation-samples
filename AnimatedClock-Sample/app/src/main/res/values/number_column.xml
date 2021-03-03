@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumberColumn">
+        <attr name="maxDigit" format="integer"/>
+        <attr name="columnColor" format="color"/>
+        <attr name="digitColor" format="color"/>
+        <attr name="circleColor" format="color"/>
+    </declare-styleable>
+    <dimen name="NumberColumn_width">35dp</dimen>
+    <dimen name="NumberColumn_height">500dp</dimen>
+</resources>
