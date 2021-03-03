@@ -60,6 +60,7 @@ class NumberColumn @JvmOverloads constructor(
             maxDigit = getInt(R.styleable.NumberColumn_maxDigit, 9)
             barPaint.color = getColor(R.styleable.NumberColumn_columnColor, barPaint.color)
             normalTextPaint.color = getColor(R.styleable.NumberColumn_digitColor, normalTextPaint.color)
+            boldTextPaint.color = getColor(R.styleable.NumberColumn_digitColor, boldTextPaint.color)
             circlePaint.color = getColor(R.styleable.NumberColumn_circleColor, circlePaint.color)
         }
     }
